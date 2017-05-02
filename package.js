@@ -1,7 +1,7 @@
 Package.describe({
   name: 'peerlibrary:extend-publish',
   summary: "Helper to easier extend Meteor.publish",
-  version: '0.3.0',
+  version: '0.4.0',
   git: 'https://github.com/peerlibrary/meteor-extend-publish.git'
 });
 
