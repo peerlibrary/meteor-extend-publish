@@ -1,4 +1,4 @@
-extendPublish = (newPublishArguments) ->
+export extendPublish = (newPublishArguments) ->
   # DDP Server constructor.
   Server = Object.getPrototypeOf(Meteor.server).constructor
 
