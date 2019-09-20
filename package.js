@@ -1,16 +1,16 @@
 Package.describe({
   name: 'peerlibrary:extend-publish',
   summary: "Helper to easier extend Meteor.publish",
-  version: '0.5.0',
+  version: '0.6.0',
   git: 'https://github.com/peerlibrary/meteor-extend-publish.git'
 });
 
 Package.onUse(function (api) {
-  api.versionsFrom('METEOR@1.4.4.5');
+  api.versionsFrom('METEOR@1.8.1');
 
   // Core dependencies.
   api.use([
-    'coffeescript@2.0.3_3',
+    'coffeescript@2.4.1',
     'ecmascript',
     'ddp',
     'underscore'
